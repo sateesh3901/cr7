@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og.title" content="Portuguese Footballer">
-<meta property="og.description" content="The Greatest Footballer of all Time Ever">
-<meta property="og.image" content="https://i.pinimg.com/736x/0b/e5/cd/0be5cd75218474173aa9bca93a10c804.jpg">
-<meta property="og.url" content="">
+    <meta property="og:title" content="Portuguese Footballer">
+<meta property="og:description" content="The Greatest Footballer of all Time Ever">
+<meta property="og:image" content="https://i.pinimg.com/736x/0b/e5/cd/0be5cd75218474173aa9bca93a10c804.jpg">
+<meta property="og:url" content="">
     <title>CR7</title>
 </head>
 
@@ -14,7 +14,7 @@
 
     <center><marquee behavior="alternate" height="140px" width="700" direction=""><h1>Cristiano Ronaldo</h1></marquee></center>
     <a href="#home">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#ct">Club Career</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#cc">Club Career</a> &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="#NT">National Team</a> &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="#j">Jersey</a> &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="#v">Videos</a> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -26,11 +26,11 @@
     <br><br>
     Ronaldo began his senior career with Sporting CP, before signing with Manchester United in 2003, winning the FA Cup in his first season. He went on to become a star player at United, as they won three consecutive Premier League titles, the Champions League and the FIFA Club World Cup; his 2007–08 season earned him his first Ballon d'Or, aged 23. Ronaldo was the subject of the then-most expensive association football transfer when he signed for Real Madrid in 2009 in a transfer worth €94 million (£80 million). He was integral to Madrid becoming a dominant force again, as they won four Champions Leagues from 2014 to 2018, including La Décima. He won back-to-back Ballon d'Or awards in 2013 and 2014, and again in 2016 and 2017, and was runner-up three times behind Lionel Messi, his perceived career rival. He also became the club's all-time top goalscorer and finished as the Champions League's top scorer for six consecutive seasons between 2012 and 2018. With Madrid, Ronaldo's additional titles include two La Liga titles, including a record-breaking title win in 2011-12, and two Copas del Rey. In 2018, following issues with the Madrid hierarchy, Ronaldo made a surprise transfer to Juventus in a transfer worth an initial €100 million (£88 million). He won several trophies in Italy, including two Serie A titles and a Coppa Italia, and broke several records for Juventus. He returned to United in 2021; despite a collectively disappointing season, Ronaldo's individual performances earned him being included in the PFA Team of the Year at 37 years old. His contract was terminated in 2022 due to a fall out with the newly appointed manager, and in 2023 he signed for Al-Nassr, a move that has since been widely credited for revolutionising football in Saudi Arabia.
     <br><br>
-    <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/250px-Cristiano_Ronaldo_2018.jpg" alt="CR7 with a flag"></center>
+    <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/250px-Cristiano_Ronaldo_2018.jpg" alt="Cristiano Ronaldo in 2018 wearing Portugal flag"></center>
     <p><center><h3>Cristiano Ronaldo</h3></center></p>
     <br><br>
 
-    <h2 id="ct"><a href="#">Club Career</a></h2>
+    <h2 id="cc"><a href="#">Club Career</a></h2>
     <ol>
         <li>Sporting CP</li>
         <li><a href="https://en.wikipedia.org/wiki/Manchester_United_F.C.">Manchester United</a></li>
@@ -46,7 +46,7 @@
             <th>Teams</th>
             <th>Matches Played</th>
             <th>Goals</th>
-            <th>Country</th>
+            <th>League (Country)</th>
         </tr>
         <tr>
             <th>1</th>
@@ -81,7 +81,7 @@
             <th>Al-Nassr</th>
             <th>109*</th>
             <th>97*</th>
-            <th>Suadi Arabia</th>
+            <th>Saudi Arabia</th>
         </tr>
         
 
@@ -114,15 +114,16 @@
 
 
     <h2 id="j"><a href="#">Jersey</a></h2>
-    <label for="">Enter your Name :</label> &nbsp;
+    <form action="./order.html">
+    &nbsp;&nbsp;<label for="">Enter your Name :</label> &nbsp;
     <input type="text" required> <br><br>
-    <label for="">Enter your Favourite Number :</label> &nbsp;
+    &nbsp;&nbsp;<label for="">Enter your Favourite Number :</label> &nbsp;
     <input type="number" required> <br><br>
-    <label for="size">Jersey Size :</label> <br><br>
-    <input type="radio" name="size"> Small  <br><br>
-    <input type="radio" name="size"> Medium <br><br>  
-    <input type="radio" name="size"> Large  <br><br>
-    <select>
+    &nbsp;&nbsp;<label for="size">Jersey Size :</label> <br><br>
+    &nbsp;&nbsp;<input type="radio" name="size"> Small  <br><br>
+    &nbsp;&nbsp;<input type="radio" name="size"> Medium <br><br>  
+    &nbsp;&nbsp;<input type="radio" name="size"> Large  <br><br>
+    &nbsp;&nbsp;<select>
         <option value="">Portugal NT</option>
         <option value="">Sporting CP</option>
         <option value="">Manchester United</option>
@@ -130,7 +131,9 @@
         <option value="">Juventus</option>
         <option value="">AL-Nassr</option>
     </select> <br><br>
-    <a href="./order.html"><input type="submit" value="Order Now"></a>
+    &nbsp;&nbsp;<input type="submit" value="Order Now"> <br><br>
+    &nbsp;&nbsp;<input type="reset">
+    </form>
     <br><br>
 
 
@@ -145,7 +148,10 @@
     </ul>
 
      
-    &copy; 2025 CR7  Website. All rights reserved.
+    <footer style="text-align:center; margin-top:50px;">
+    &copy; 2025 CR7 Website. All rights reserved.
+</footer>
+
 
 </body>
 </html>
